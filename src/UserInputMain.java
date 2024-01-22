@@ -6,5 +6,8 @@ public class UserInputMain {
         Scanner sc = new Scanner(System.in);
         String firstStr = sc.nextLine();
         System.out.println("You entered : " + firstStr);
+
+        int age = sc.nextInt();
+        System.out.println("Your age : " + age);
     }
 }
